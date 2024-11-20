@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+.output p {
+    margin: 10px;
+    font-size: 24px;
+    color: #444;
+}
+
+/* Make the "Blast Off!" text special */
+.output p:last-child {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/* Make the "Countdown 10" text special */
+.output p:first-child {
+    color: #0066cc;
+    font-weight: bold;
+}
